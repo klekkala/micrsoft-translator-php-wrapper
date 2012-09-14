@@ -32,7 +32,7 @@ const GET_LANG = 'GetLanguagesForTranslation';
 
 const ENABLE_CACHE = true;
 
-const CACHE_DIRECTORY = '/app01/users/xrenpill/public_html/micrsoft-translator-php-wrapper/cache/';
+const CACHE_DIRECTORY = '/home/content/26/6110126/html/translate/cache/';
 
 const LANG_CACHE_FILE = 'lang.cache';
 /**
@@ -182,7 +182,7 @@ private function sanitize($text){
  *
  * @param unknown_type $response
  */
-private function getSuccessResponse($response, $selectBox){
+private function getSuccessResponse($response, $selectBox = ''){
     $this->response = new stdClass();
     $this->response->status = self::SUCCESS;
     if($this->requestInvoked == self::TRANSLATE ) {
