@@ -22,19 +22,19 @@ const SUCCESS = 'SUCCESS';
 
 const ERROR = 'ERROR';
 
-const UNEXPECTED_ERROR = "There is some un expected error . please check the code";
+const UNEXPECTED_ERROR = UNEXPECTED_ERROR;
 
-const MISSING_ERROR = "Missing Required Parameters ( Language or Text) in Request";
+const MISSING_ERROR = MISSING_ERROR;
 
 const TRANSLATE = 'Translate';
 
 const GET_LANG = 'GetLanguagesForTranslation';
 
-const ENABLE_CACHE = true;
+const ENABLE_CACHE = ENABLE_CACHE;
 
-const CACHE_DIRECTORY = '/home/content/26/6110126/html/translate/cache/';
+const CACHE_DIRECTORY = CACHE_DIRECTORY;
 
-const LANG_CACHE_FILE = 'lang.cache';
+const LANG_CACHE_FILE = LANG_CACHE_FILE;
 /**
  * Service root URL for translattion. You can get it from Nicrosoft Azure Dataset PAge
  *
